@@ -1,7 +1,6 @@
-class Hello
-{
-public static void main(String args[])
-{
-System.out.println("Executed at"+new java.util.Date());
-}
+class Hello{
+	public static void main(String args[]){
+		System.out.println("Executed at"+new java.util.Date());
+		System.out.println("Executed at"+new java.util.Time());
+	}
 }
